@@ -2,66 +2,154 @@
 ---
 
 % ============================================================
-%  论文数据文件 —— 网站上的论文页由这个 .bib 自动生成
-%  加论文 = 往这里贴一条 BibTeX（从 Google Scholar 点 "Cite → BibTeX" 复制）
-%  改完 push，网页自动更新，不需要动 HTML
+%  论文数据 —— 网站论文页由这个 .bib 自动生成
+%  数据来源：西电教师主页（faculty.xidian.edu.cn/junpengzhang）与 IEEE 作者简介
+%  加论文 = 贴一条 BibTeX（Google Scholar → Cite → BibTeX），push 后自动更新
 %
-%  常用字段：
-%    selected    = {true}        首页"精选论文"里显示
-%    abbr        = {VENUE26}     列表里显示的会议简称
-%    bibtex_show = {true}        显示"复制 BibTeX"按钮
-%    pdf / html / code / arxiv / doi / slides / poster   对应按钮链接
-%    preview     = {xxx.png}     配图（放在 assets/img/publication_preview/）
-%  通讯作者请把你自己的名字写成 Zhang, Junpeng，主题会自动加粗
+%  字段说明：
+%    selected    = {true}   首页"精选论文"显示
+%    abbr        = {TGRS}   列表里的小标签
+%    bibtex_show = {true}   显示"复制 BibTeX"按钮
+%    pdf / html / code / arxiv / doi / slides  对应按钮
+%    preview     = {x.png}  配图（放 assets/img/publication_preview/）
+%  注意：作者名写成 Zhang, Junpeng 才会被自动加粗
 % ============================================================
 
-@inproceedings{zhang2026paperone,
-  abbr        = {VENUE},
+@article{zhang2021movingvehicle,
+  abbr        = {TPAMI},
   bibtex_show = {true},
-  title       = {Paper Title One: A Descriptive Title That States the Claim},
-  author      = {Zhang, Junpeng and Coauthor, Alice and Coauthor, Bob},
-  booktitle   = {Proceedings of the XXXX Conference (VENUE 2026)},
-  year        = {2026},
-  selected    = {true},
-  pdf         = {https://example.com/paper-one.pdf},
-  code        = {https://github.com/USERNAME/paper-one},
-  arxiv       = {2601.00001}
+  title       = {Moving Vehicle Detection for Remote Sensing Video Surveillance With Nonstationary Satellite Platform},
+  author      = {Zhang, Junpeng and Jia, Xiuping and Hu, Jiankun and Tan, Kun},
+  journal     = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year        = {2021},
+  selected    = {true}
 }
 
-@inproceedings{zhang2025papertwo,
-  abbr        = {VENUE},
+@article{liang2025oriented,
+  abbr        = {TGRS},
   bibtex_show = {true},
-  title       = {Paper Title Two: Another Descriptive Title},
-  author      = {Coauthor, Carol and Zhang, Junpeng and Coauthor, Dave},
-  booktitle   = {Proceedings of the XXXX Conference (VENUE 2025)},
+  title       = {Oriented Vehicle Joint Detection and Tracking in Satellite Video via Identifier-Free Point Supervision},
+  author      = {Liang, Yuping and Wu, Jinjian and Zhang, Junpeng and Chang, Yuxuan and Feng, Jie and Shi, Guangming},
+  journal     = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume      = {63},
+  pages       = {5657815},
   year        = {2025},
-  selected    = {true},
-  pdf         = {https://example.com/paper-two.pdf},
-  html        = {https://example.com/paper-two}
+  doi         = {10.1109/TGRS.2025.3643494},
+  selected    = {true}
 }
 
-@article{zhang2025paperthree,
-  abbr        = {JOURNAL},
+@article{zhang2020online,
+  abbr        = {TGRS},
   bibtex_show = {true},
-  title       = {Paper Title Three: Yet Another Title},
-  author      = {Coauthor, Eve and Coauthor, Frank and Zhang, Junpeng},
-  journal     = {XXXX Transactions on XXXX},
-  volume      = {1},
-  number      = {1},
-  pages       = {1--15},
-  year        = {2025},
-  selected    = {true},
-  pdf         = {https://example.com/paper-three.pdf},
-  doi         = {10.0000/xxxx.2025.0001}
+  title       = {Online Structured Sparsity-Based Moving-Object Detection From Satellite Videos},
+  author      = {Zhang, Junpeng and Jia, Xiuping and Hu, Jiankun and Chanussot, Jocelyn},
+  journal     = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume      = {58},
+  pages       = {6420--6433},
+  year        = {2020},
+  selected    = {true}
 }
 
-@inproceedings{zhang2024paperfour,
-  abbr        = {VENUE},
+@article{zhang2019error,
+  abbr        = {TGRS},
   bibtex_show = {true},
-  title       = {Paper Title Four},
-  author      = {Coauthor, Grace and Zhang, Junpeng},
-  booktitle   = {Proceedings of the XXXX Conference (VENUE 2024)},
-  year        = {2024},
-  selected    = {false},
-  pdf         = {https://example.com/paper-four.pdf}
+  title       = {Error Bounded Foreground and Background Modeling for Moving Object Detection in Satellite Videos},
+  author      = {Zhang, Junpeng and Jia, Xiuping and Hu, Jiankun},
+  journal     = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume      = {58},
+  pages       = {2659--2669},
+  year        = {2019},
+  selected    = {true}
+}
+
+@article{zhang2019local,
+  abbr        = {RS},
+  bibtex_show = {true},
+  title       = {Local Region Proposing for Frame-Based Vehicle Detection in Satellite Videos},
+  author      = {Zhang, Junpeng and Jia, Xiuping and Hu, Jiankun},
+  journal     = {Remote Sensing},
+  volume      = {11},
+  number      = {20},
+  pages       = {2372},
+  year        = {2019}
+}
+
+@article{tan2015gpu,
+  abbr        = {JSTARS},
+  bibtex_show = {true},
+  title       = {GPU Parallel Implementation of Support Vector Machines for Hyperspectral Image Classification},
+  author      = {Tan, Kun and Zhang, Junpeng and Du, Qian and Wang, Xuesong},
+  journal     = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  volume      = {8},
+  number      = {10},
+  pages       = {4647--4656},
+  year        = {2015}
+}
+
+@inproceedings{zhang2021learning,
+  abbr        = {IGARSS},
+  bibtex_show = {true},
+  title       = {Learning via Watching: A Weakly Supervised Moving Object Detector for Satellite Videos},
+  author      = {Zhang, Junpeng and Jia, Xiuping},
+  booktitle   = {2021 IEEE International Geoscience and Remote Sensing Symposium (IGARSS)},
+  year        = {2021}
+}
+
+@inproceedings{zhang2020lowrank,
+  abbr        = {ISPRS},
+  bibtex_show = {true},
+  title       = {Low-Rank Matrix Decomposition with Superpixel-Based Structured Sparse Regularization for Moving Object Detection in Satellite Videos},
+  author      = {Zhang, Junpeng and Jia, Xiuping and Hu, Jiankun},
+  booktitle   = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  volume      = {V-2-2020},
+  year        = {2020}
+}
+
+@inproceedings{zhang2019improved,
+  abbr        = {IGARSS},
+  bibtex_show = {true},
+  title       = {Improved Low Rank plus Structured Sparsity and Unstructured Sparsity Decomposition for Moving Object Detection in Satellite Videos},
+  author      = {Zhang, Junpeng and Jia, Xiuping and Hu, Jiankun},
+  booktitle   = {2019 IEEE International Geoscience and Remote Sensing Symposium (IGARSS)},
+  year        = {2019}
+}
+
+@inproceedings{zhang2018satellite,
+  abbr        = {DICTA},
+  bibtex_show = {true},
+  title       = {Satellite Multi-Vehicle Tracking under Inconsistent Detection Conditions by Bilevel K-Shortest Paths Optimization},
+  author      = {Zhang, Junpeng and Jia, Xiuping and Hu, Jiankun and Tan, Kun},
+  booktitle   = {2018 Digital Image Computing: Techniques and Applications (DICTA)},
+  year        = {2018},
+  note        = {Winner, DSTG Best Contribution to Science Award}
+}
+
+@inproceedings{zhang2018zoom,
+  abbr        = {IGARSS},
+  bibtex_show = {true},
+  title       = {An Effective Zoom-In Approach for Detecting DIM and Small Target Proposals in Satellite Imagery},
+  author      = {Zhang, Junpeng and Jia, Xiuping and Hu, Jiankun},
+  booktitle   = {2018 IEEE International Geoscience and Remote Sensing Symposium (IGARSS)},
+  year        = {2018}
+}
+
+@inproceedings{zhang2017motion,
+  abbr        = {DICTA},
+  bibtex_show = {true},
+  title       = {Motion Flow Clustering for Moving Vehicle Detection from Satellite High Definition Video},
+  author      = {Zhang, Junpeng and Jia, Xiuping and Hu, Jiankun},
+  booktitle   = {2017 Digital Image Computing: Techniques and Applications (DICTA)},
+  year        = {2017}
+}
+
+@article{guo2020activities,
+  abbr        = {GRSM},
+  bibtex_show = {true},
+  title       = {Activities of the IEEE GRSS University of New South Wales Canberra Student Chapter},
+  author      = {Guo, Yiqing and Zhang, Junpeng and Awan, Adnan Farooq and Chen, Xiaolin and Jia, Xiuping},
+  journal     = {IEEE Geoscience and Remote Sensing Magazine},
+  volume      = {8},
+  number      = {3},
+  pages       = {102--103},
+  year        = {2020}
 }

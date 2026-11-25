@@ -1,62 +1,77 @@
 cv:
-  name: 张俊鹏 / Junpeng Zhang
-  label: Professor, School of XXXX, XXXX University
-  email: zhangjp@xxxx.edu.cn
-  location: City, Province, China
+  name: 张骏鹏 / Junpeng Zhang
+  label: Associate Professor, School of Artificial Intelligence, Xidian University
+  email: junpengzhang@xidian.edu.cn
+  location: 西安市，陕西省，中国
   image: ""
-  summary: 研究方向为 AREA_A 与 AREA_B —— XXXX 大学 XXXX 学院教授、博士生导师。
+  summary: 西安电子科技大学人工智能学院菁英副教授、硕士生导师。研究方向为卫星视频动目标检测与多目标跟踪、低秩矩阵分解、弱监督遥感解译。
 
   social_networks:
     - network: GitHub
       username: USERNAME
 
   address:
-    street: XXXX Road No. XX
-    city: City
-    region: Province
-    postalCode: "XXXXXX"
+    street: 太白南路 2 号 主楼 II-418
+    city: 西安
+    region: 陕西省
+    postalCode: "710071"
     countryCode: CN
 
   sections:
     Education:
-      - institution: XXXX University
-        location: City, China
-        area: AREA_A
+      - institution: University of New South Wales (Canberra)
+        location: Canberra, Australia
+        area: Electrical Engineering
         studyType: PhD
-        start_date: 20XX
-        end_date: 20XX
+        start_date: 2017.03
+        end_date: 2021.03
         highlights:
-          - 导师：XXXX 教授
-          - 研究方向：XXXX
+          - 导师：Xiuping Jia 副教授、Jiankun Hu 教授
+          - 研究方向：卫星视频动目标检测与多目标跟踪
 
-      - institution: XXXX University
-        location: City, China
-        area: XXXX
-        studyType: BSc
-        start_date: 20XX
-        end_date: 20XX
+      - institution: 中国矿业大学 China University of Mining and Technology
+        location: 徐州，江苏
+        area: 测绘工程 Surveying Engineering
+        studyType: 硕士 MSc
+        start_date: 2013.09
+        end_date: 2016.06
+
+      - institution: 中国矿业大学 China University of Mining and Technology
+        location: 徐州，江苏
+        area: 地理信息科学 Geographic Information Science
+        studyType: 学士 BSc
+        start_date: 2009.09
+        end_date: 2013.07
 
     Experience:
-      - company: XXXX University
-        position: Professor
-        location: City, China
-        start_date: 20XX
+      - company: 西安电子科技大学 人工智能学院
+        position: 菁英副教授 · Associate Professor
+        location: 西安，陕西
+        start_date: 2021.05
         end_date: present
-        summary: XXXX 学院教授、博士生导师，主讲机器学习等课程。
+        summary: 硕士生导师。承担卫星视频对地观测方向的科研与研究生指导工作，长期招收硕士研究生与本科实习生。
         highlights:
-          - 主持项目 XXXX
-          - 指导博士生 X 名、硕士生 X 名
-
-      - company: XXXX University
-        position: Associate Professor
-        location: City, China
-        start_date: 20XX
-        end_date: 20XX
+          - 研究方向：卫星视频动目标检测、多目标跟踪、弱监督遥感解译
+          - 担任 IEEE TGRS、IEEE GRSM、IEEE GRSL、IEEE T-ITS、IEEE TIP 等期刊审稿人
 
     Awards:
-      - title: AWARD_NAME
+      - title: DSTG Best Contribution to Science Award (Winner)
         authors:
-          - AWARDER
-        date: 20XX
-        awarder: AWARDER
-        summary: 获奖说明。
+          - DICTA 2018
+        date: 2018
+        awarder: "Digital Image Computing: Techniques and Applications (DICTA)"
+        summary: 会议最佳科学贡献奖，Canberra。
+
+      - title: IEEE GRSS Grand Student Challenge
+        authors:
+          - IEEE Geoscience and Remote Sensing Society
+        date: 2019
+        awarder: IEEE GRSS
+        summary: 合作获奖。
+
+      - title: IEEE GRSS UNSW Canberra Student Chapter — Chair (2020) / Secretary (2019)
+        authors:
+          - IEEE GRSS
+        date: 2020
+        awarder: IEEE GRSS
+        summary: 共同创建该学生分会，2019 年任秘书，2020 年任主席。

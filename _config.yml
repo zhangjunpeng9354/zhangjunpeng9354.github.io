@@ -7,14 +7,15 @@ first_name: Junpeng
 middle_name: ""
 last_name: Zhang
 contact_note: >
-  邮件是最可靠的联系方式；急事也可直接到办公室找我。
+  邮件是最可靠的联系方式；也欢迎直接到北校区主楼 II-418 找我。
   Email is the most reliable way to reach me.
 description: > # 站点描述，出现在搜索结果与分享卡片中
-  Junpeng Zhang (张俊鹏) is a professor at 【XXXX University】 working on 【Area A】 and 【Area B】.
+  张骏鹏 (Junpeng Zhang), Associate Professor at the School of Artificial Intelligence, Xidian University.
+  Research: moving object detection and multiple object tracking in satellite videos.
 footer_text: >
   © 2026 Junpeng Zhang · Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
   and <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a>.
-keywords: academic homepage, professor, 【Area A】, 【Area B】, 学术主页
+keywords: 张骏鹏, Junpeng Zhang, 西安电子科技大学, 人工智能学院, satellite video, moving object detection, multi-object tracking, remote sensing
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎓 # 用作 favicon 的 emoji（也可填 /assets/img/ 里的图片名）
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.

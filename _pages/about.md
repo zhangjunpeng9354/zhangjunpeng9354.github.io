@@ -2,19 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Professor</b> · School of XXXX, XXXX University · XXXX 大学 XXXX 学院教授
+subtitle: <b>Associate Professor</b> · School of Artificial Intelligence, Xidian University
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # 想用圆形头像改成 true
   more_info: >
-    <p>Room XXX, Building XX</p>
-    <p>XXXX University</p>
-    <p>City, Province, China</p>
+    <p>主楼 II-418（北校区）</p>
+    <p>西安电子科技大学</p>
+    <p>陕西省西安市太白南路 2 号</p>
 
 selected_papers: true # 显示 papers.bib 里标记 selected={true} 的论文
-social: true # 页面底部显示 Social 图标
+social: true
 
 announcements:
   enabled: true
@@ -22,17 +22,17 @@ announcements:
   limit: 5
 
 latest_posts:
-  enabled: false # 没写博客就关掉
+  enabled: false
 ---
 
-I am a professor in the School of XXXX at XXXX University. My research lies in **AREA_A** and **AREA_B**, with a particular focus on making methods that hold up outside the benchmark. Most of my recent work is evaluated on REAL_WORLD_SETTING rather than on standard datasets alone.
+I am an associate professor in the [School of Artificial Intelligence](https://sai.xidian.edu.cn/) at Xidian University. My work centers on **moving object detection and multiple object tracking in satellite videos** — a setting where the platform itself moves, targets are only a few pixels wide, and reliable annotations are expensive. I build methods around low-rank matrix decomposition, structured sparsity, and weakly supervised learning, and push them toward something that actually runs on real satellite video rather than on curated clips.
 
-我是 XXXX 大学 XXXX 学院教授、博士生导师，研究方向为 **AREA_A** 与 **AREA_B**，近期主要关注 CONCRETE_PROBLEM。比起只在标准数据集上刷指标，我更关心方法能否在真实场景里跑起来、跑得住。
+我是西安电子科技大学人工智能学院菁英副教授、硕士生导师。研究集中在**卫星视频中的动目标检测与多目标跟踪**：搭载平台在动、目标只有几个像素、标注又贵得离谱——这三个约束基本决定了这个方向的技术路线。我的工作围绕低秩矩阵分解、结构化稀疏与弱监督学习展开，目标不是把指标做高，而是让方法真的能在真实卫星视频上跑住。
 
-**Research interests:** AREA_A · AREA_B · AREA_C
+**Research interests:** Moving Object Detection in Satellite Videos · Multiple Object Tracking · Low-Rank & Structured Sparse Decomposition · Weakly Supervised Learning for Remote Sensing
 
-**Openings.** I am looking for self-motivated PhD and Master students, as well as research interns, interested in AREA_A / AREA_B. If you are strong at coding or mathematics and genuinely curious, email me your CV together with a short note (three to five sentences) about what you want to work on.
+**Openings.** I supervise Master's students and long-term undergraduate interns. If you are interested in computer vision and remote sensing, and you are willing to read papers and write code seriously, email me with your CV and a short note about what you want to work on.
 
-**招生。** 常年招收博士、硕士研究生与科研实习生，方向为 AREA_A / AREA_B。欢迎真正感兴趣、动手能力强的同学联系我——来信请附简历，并用三五行说明你想做什么问题。
+**招生。** 招收硕士研究生，并长期招收本科实习生。如果你对计算机视觉与遥感解译真有兴趣，愿意认真读论文、写代码，欢迎邮件联系我——请附简历，并用三五行说明你想做什么问题。
 
-More details are in my [CV](/cv/), and the full publication list is [here](/publications/).
+See my [publications](/publications/) and [CV](/cv/).

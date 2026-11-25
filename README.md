@@ -101,26 +101,20 @@ related_posts: false
 
 ---
 
-## 三、现在还是占位符的地方
+## 三、还需要你补的（就这几处）
 
-用编辑器的全局搜索逐个替换：
+姓名、单位、研究方向、论文列表、教育经历、获奖、联系方式都已按公开信息填好。剩下这些我拿不到，需要你确认：
 
-| 占位符 | 含义 | 出现在 |
+| 待补 | 位置 | 说明 |
 |---|---|---|
-| `USERNAME` | GitHub 用户名 | `_config.yml`、`_data/socials.yml`、`papers.bib` |
-| `XXXX` / `XXXX University` | 学校、学院、课名、地址 | 几乎所有内容文件 |
-| `AREA_A` / `AREA_B` / `AREA_C` | 研究方向 | `about.md`、`papers.bib` |
-| `CONCRETE_PROBLEM` | 你正在解决的具体问题 | `about.md` |
-| `REAL_WORLD_SETTING` | 你的实验场景 | `about.md` |
-| `zhangjp@xxxx.edu.cn` | 邮箱 | `socials.yml`、`cv.yml`、`about.md` |
-| `XXXXXXXXXXXX` | Google Scholar user ID | `socials.yml` |
-| `0000-0000-0000-0000` | ORCID | `socials.yml` |
-| `STUDENT_NAME` / `TALK_TITLE` / `PROJECT_NAME` | 动态里的具体信息 | `_news/*.md` |
-| `AWARD_NAME` / `AWARDER` | 获奖信息 | `_data/cv.yml` |
+| GitHub 用户名 | `_config.yml`（`url`）、`_data/socials.yml`、`_data/cv.yml` | 把所有 `USERNAME` 换成真实用户名 |
+| 头像 | `assets/img/prof_pic.jpg` | 现在是一张「张」字占位图，换成你的照片，**文件名不要改** |
+| CV PDF | `assets/pdf/cv.pdf` | 现在是示例 PDF，换成你的简历 |
+| Google Scholar / ORCID | `_data/socials.yml` | 已注释掉——填错会链到别人的主页，比空着更糟。找到后取消注释再填 |
+| 课程信息 | `_pages/teaching.md` + `_teachings/` | 教学页已移出导航栏，补完课程把 `nav` 改成 `true` |
+| 论文链接 | `papers.bib` | 多数条目暂无 PDF/代码链接，可逐条补 `pdf`、`code`、`arxiv` |
 
-替换完 commit + push，Actions 会自动重新构建。
-
----
+> 核对建议：`papers.bib` 里的年份、卷期取自西电教师主页与 IEEE 作者简介，个别条目（如 TPAMI 那篇的正式卷期）建议去 IEEE Xplore 核一遍再对外发布。
 
 ## 四、常见问题
 
