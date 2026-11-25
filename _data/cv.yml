@@ -60,12 +60,3 @@ cv:
         date: 20XX
         awarder: AWARDER
         summary: 获奖说明。
-
-    Skills:
-      - name: 研究方向
-        level: ""
-        icon: fa-solid fa-microscope
-        keywords:
-          - AREA_A
-          - AREA_B
-          - AREA_C
