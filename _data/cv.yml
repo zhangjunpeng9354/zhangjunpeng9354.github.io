@@ -1,0 +1,71 @@
+cv:
+  name: 张俊鹏 / Junpeng Zhang
+  label: Professor, School of XXXX, XXXX University
+  email: zhangjp@xxxx.edu.cn
+  location: City, Province, China
+  image: ""
+  summary: 研究方向为 AREA_A 与 AREA_B —— XXXX 大学 XXXX 学院教授、博士生导师。
+
+  social_networks:
+    - network: GitHub
+      username: USERNAME
+
+  address:
+    street: XXXX Road No. XX
+    city: City
+    region: Province
+    postalCode: "XXXXXX"
+    countryCode: CN
+
+  sections:
+    Education:
+      - institution: XXXX University
+        location: City, China
+        area: AREA_A
+        studyType: PhD
+        start_date: 20XX
+        end_date: 20XX
+        highlights:
+          - 导师：XXXX 教授
+          - 研究方向：XXXX
+
+      - institution: XXXX University
+        location: City, China
+        area: XXXX
+        studyType: BSc
+        start_date: 20XX
+        end_date: 20XX
+
+    Experience:
+      - company: XXXX University
+        position: Professor
+        location: City, China
+        start_date: 20XX
+        end_date: present
+        summary: XXXX 学院教授、博士生导师，主讲机器学习等课程。
+        highlights:
+          - 主持项目 XXXX
+          - 指导博士生 X 名、硕士生 X 名
+
+      - company: XXXX University
+        position: Associate Professor
+        location: City, China
+        start_date: 20XX
+        end_date: 20XX
+
+    Awards:
+      - title: AWARD_NAME
+        authors:
+          - AWARDER
+        date: 20XX
+        awarder: AWARDER
+        summary: 获奖说明。
+
+    Skills:
+      - name: 研究方向
+        level: ""
+        icon: fa-solid fa-microscope
+        keywords:
+          - AREA_A
+          - AREA_B
+          - AREA_C

@@ -1,0 +1,9 @@
+# 社交与学术链接（由 jekyll-socials 插件渲染成页面底部的图标）
+# 不想显示的项：整行删掉或留空。改完记得把邮箱换成真实的。
+
+cv_pdf: /assets/pdf/cv.pdf # 简历 PDF，放进 assets/pdf/ 后这里指向它
+email: zhangjp@xxxx.edu.cn
+scholar_userid: XXXXXXXXXXXX # Google Scholar 主页 URL 里 user= 后面那一串
+orcid_id: 0000-0000-0000-0000
+github_username: USERNAME
+rss_icon: false # 没写博客就关掉
