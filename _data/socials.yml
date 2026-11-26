@@ -3,7 +3,7 @@
 
 cv_pdf: /assets/pdf/cv.pdf # 简历 PDF，替换 assets/pdf/cv.pdf 即可
 email: junpengzhang@xidian.edu.cn
-github_username: USERNAME # 改成你的 GitHub 用户名
+github_username: zhangjunpeng9354
 
 # 下面两项我没有找到公开的正确 ID，先注释掉——填错会指向别人的主页，比空着更糟。
 # 找到后取消注释并填入：
