@@ -27,7 +27,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"
+          ruby-version: "3.3" # 不写死补丁号：runner 镜像升级后旧补丁版会 404
           bundler-cache: true
 
       - name: Setup Python
