@@ -13,7 +13,7 @@ description: > # 站点描述，出现在搜索结果与分享卡片中
   张骏鹏 (Junpeng Zhang), Associate Professor at the School of Artificial Intelligence, Xidian University.
   Research: moving object detection and multiple object tracking in satellite videos.
 footer_text: >
-  © 2026 Junpeng Zhang · Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
+  Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
   and <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a>.
 keywords: 张骏鹏, Junpeng Zhang, 西安电子科技大学, 人工智能学院, satellite video, moving object detection, multi-object tracking, remote sensing
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
